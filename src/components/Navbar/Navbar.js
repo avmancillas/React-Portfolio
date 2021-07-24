@@ -1,40 +1,24 @@
 import React, {Component} from 'react';
-import {Items} from "./Items";
 import './Navbar.css';
+import { Link } from "react-router-dom";
 
 
 
 
-class Navbar extends Component{
-    state = {clicked:false}
-    
-    handleClick = () => {
-        this.setState({ clicked:!this.state.clicked})
-    }
-
-    render() {
-        return(
-            
-            <nav className="NavbarMenu">
-                <h1 className="navbar-logo">Avi Mancillas</h1>
-                <div className="menu-icon" onClick={this.handleClick}>
-                </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}> 
-                    {Items.map((item,index) => {
-                        return(
-                            <li key = {index}>
-                                <a className={item.cName} href={item.url}>
-                                    {item.label}
-
-                                </a>
-                            </li>
-                        )
-                    })}
-                </ul>
-            </nav>
-            
-        )
-    }
+function Navbar() {
+    return (
+        <nav>
+            <h3> Avi Mancillas</h3>
+            <ul className="nav-menu">
+                <Link to= '/AboutMe'>
+                <li>AboutMe</li>
+                </Link>
+                <Link to='/Languages'>
+                <li>Languages</li>
+                </Link>
+            </ul>
+        </nav>
+    )
 }
 
 

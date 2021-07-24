@@ -1,5 +1,7 @@
 import React from 'react';
 import photo from '/Users/avi/Desktop/github/Week20/react-portfolio/src/assets/Screenshot3.png'
+
+
 function AboutMe() {
     return(
     <div class= "row container card-panel" id ="aboutMe">
