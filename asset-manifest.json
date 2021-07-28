@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/avmancillas/React-Portfolio/static/css/main.7a2e6b0c.chunk.css",
+    "main.js": "/avmancillas/React-Portfolio/static/js/main.a57ad8e2.chunk.js",
+    "main.js.map": "/avmancillas/React-Portfolio/static/js/main.a57ad8e2.chunk.js.map",
+    "runtime-main.js": "/avmancillas/React-Portfolio/static/js/runtime-main.3db7eca9.js",
+    "runtime-main.js.map": "/avmancillas/React-Portfolio/static/js/runtime-main.3db7eca9.js.map",
+    "static/js/2.a3dd9607.chunk.js": "/avmancillas/React-Portfolio/static/js/2.a3dd9607.chunk.js",
+    "static/js/2.a3dd9607.chunk.js.map": "/avmancillas/React-Portfolio/static/js/2.a3dd9607.chunk.js.map",
+    "index.html": "/avmancillas/React-Portfolio/index.html",
+    "static/css/main.7a2e6b0c.chunk.css.map": "/avmancillas/React-Portfolio/static/css/main.7a2e6b0c.chunk.css.map",
+    "static/js/2.a3dd9607.chunk.js.LICENSE.txt": "/avmancillas/React-Portfolio/static/js/2.a3dd9607.chunk.js.LICENSE.txt",
+    "static/media/Screenshot3.a2a78edf.png": "/avmancillas/React-Portfolio/static/media/Screenshot3.a2a78edf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3db7eca9.js",
+    "static/js/2.a3dd9607.chunk.js",
+    "static/css/main.7a2e6b0c.chunk.css",
+    "static/js/main.a57ad8e2.chunk.js"
+  ]
+}
