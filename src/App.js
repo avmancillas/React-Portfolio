@@ -24,6 +24,7 @@ function App() {
           <Route path = "/Resume" component= {Resume}/>
           <Route path = "/ContactMe" component= {ContactMe}/>
         </Switch>
+        
 
       </div>
     </Router>
